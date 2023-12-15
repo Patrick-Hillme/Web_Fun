@@ -1,0 +1,31 @@
+div {
+    margin: 20px;
+}
+
+.search {
+    border: solid 2px seagreen;
+    padding: 5px;
+    width: 10em;
+    color: seagreen;
+    border-radius: 50px;
+    font-size: large;
+}
+
+.plus {
+    border: 2px solid darkcyan;
+    border-radius: 50px;
+    color: white;
+    background-color: darkcyan;
+    padding: 2px 12px;
+    font-size: 2em;
+}
+
+.create-account {
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    width: 12%;
+    padding: 10px 0;
+    font-size: large;
+    box-shadow: 5px 5px 10px 0 black;
+}
