@@ -48,25 +48,25 @@
 }
 
 .profile {
-    width: 52%;
-    border: 2px solid grey;
+    width: 60%;
+    /* border: 2px solid grey; */
 }
 
 .requests {
-    background-color: red;
-    width: 40%;
+    /* border: 2px solid grey; */
+    width: 30%;
     height: 300px;
 }
 
 .education {
     background-color: red;
-    width: 52%;
+    width: 60%;
     height: 300px;
 }
 
 .connections {
     background-color: red;
-    width: 40%;
+    width: 30%;
     height: 300px;
 }
 
@@ -77,11 +77,66 @@
 }
 
 .profile-info {
-    margin-left: 20px   ;
+    /* margin-left: 20px   ; */
+    width: 100%;
+    border: 2px solid grey;
 }
 
-.user-photo img{
+.user-photo {
     width: 15%;
     margin-left: 20px;
-    margin-top: -40px;
+    margin-top: -45px;
+    position: inherit;
+}
+
+.location {
+    display: flex;
+    margin: 10px 0;
+}
+
+.location img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.user-info {
+    margin: 10px 0;
+}
+
+.gear-icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+}
+
+.request-ribbon {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+.request-number {
+    background-color: grey;
+    border-radius: 50px;
+    padding: 5px;
+    width: 20px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    /* margin: 0 20px; */
+}
+
+.request-box {
+    border: 2px solid grey;
+    width: 100%;
 }
