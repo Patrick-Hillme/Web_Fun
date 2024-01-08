@@ -1,0 +1,17 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner{
+    background-color: grey;
+    width: 75%;
+    display: flex;
+}
